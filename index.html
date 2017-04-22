@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" style="background-color:#e6e6e6;">
+  <head>
+    <meta charset="utf-8" />
+    <title>Point Lighted Cube - Lighted Per Fragment</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  </head>
+ 
+  <body onload="main()" style="margin:0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #1c122b;
+    height: 100vh;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 1px;
+    align-items: center;">
+    <h1>WebGL Point Lighted Cube - Lit per Fragment</h1>
+    <div>
+      <canvas id="webgl" width="800" height="600">
+      Please use a browser that supports "canvas"
+      </canvas>
+    </div>
+
+    <script src="./lib/webgl-utils.js"></script>
+    <script src="./lib/webgl-debug.js"></script>
+    <script src="./lib/cuon-utils.js"></script>
+    <script src="./lib/cuon-matrix.js"></script>
+    <script src="graphics.js"></script>
+  </body>
+</html>
